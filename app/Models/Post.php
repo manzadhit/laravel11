@@ -12,12 +12,13 @@ class Post extends Model
     public $fillable = [
         "title",
         "excerpt",
+        "slug",
         "body",
+        "category_id"
     ];
 
-    public function getRouteKeyName()
-    {
-        return "title";
+    public function getRouteKeyName() {
+        return "slug";
     }
 
     public function category() {

@@ -71,3 +71,20 @@ class PostController extends Controller
         //
     }
 }
+
+// <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsa recusandae natus, autem minima labore mollitia velit? Magni consectetur, ducimus beatae accusantium consequatur harum ipsa fugiat dolore aut! Inventore, asperiores!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, illo consectetur itaque saepe rerum dolorum nulla quas minima illum debitis ipsam amet excepturi odit magnam! Eos ab consequuntur praesentium esse.</p>
+// $post = new App\Models\Post
+// $post::create([
+//     "title" => "Judul Post Ketiga",
+//     "slug" => "judul-post-ketiga",
+//     "excerpt" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsa recusandae natus, autem minima labore mollitia velit? Magni consectetur, ducimus beatae accusantium consequatur harum ipsa fugiat dolore aut! Inventore, asperiores!",
+//     "body" => "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsa recusandae natus, autem minima labore mollitia velit? Magni consectetur, ducimus beatae accusantium consequatur harum ipsa fugiat dolore aut! Inventore, asperiores!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, illo consectetur itaque saepe rerum dolorum nulla quas minima illum debitis ipsam amet excepturi odit magnam! Eos ab consequuntur praesentium esse.</p>",
+//     "category_id" => 2
+// ])
+
+// $category = new App\Models\Category
+
+// $category::create([
+//     "name" => "News",
+//     "slug" => "news"
+// ])
