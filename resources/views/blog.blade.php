@@ -5,9 +5,12 @@
 
 
     @foreach ($posts as $post)
-        <article>
-            <h2><a href="blog/{{ $post->slug }}">{{ $post->title }}</a></h2>
-            <p>{{ $post->excerpt }}</p>
+        <article class="mt-5">
+            <h2><a class="text-decoration-none" href="blog/{{ $post->slug }}">{{ $post->title }}</a></h2>
+            <p>by I Nyoman Aditia in <a class="text-decoration-none" href="/category/{{ $post->category->slug }}">{{ $post->category->name }}</a></p>
+            <p>{{ $post->excerpt }}....</p>
+            
+            <a class="text-decoration-none" href="blog/{{ $post->slug }}">Read more..</a>
         </article>
     @endforeach
 @endsection
