@@ -2,7 +2,7 @@
 
 @section('container')
     <h2>{{ $post->title }}</h2>
-    <p>by I Nyoman Aditia in <a href="/category/{{ $post->category->slug }}">{{ $post->category->name }}</a></p>
+    <p>By. <a href="#" class="text-decoration-none">{{ $post->user->name }}</a> in <a href="/category/{{ $post->category->slug }}">{{ $post->category->name }}</a></p>
     <p>{!! $post->body !!}</p>
 
 
